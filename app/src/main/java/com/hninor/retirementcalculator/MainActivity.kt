@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         AppCenter.start(
-            application, "d231f4a0-f044-4e56-9aba-bc2978a0211c",
+            application, "46c9beb2-87f3-4e67-9e71-5e09e5c06e29",
             Analytics::class.java, Crashes::class.java
         )
         val calculateButton = findViewById<Button>(R.id.calculateButton)
